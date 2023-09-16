@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+}
+nav ul li{
+    display: inline;
+    padding-right: 15px;
+}
+.menu{
+    padding-right: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+.header-container{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: #fea50096;
+    border-radius: 50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-title{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /*We can also write it as repeat(3, 1fr)*/
+    gap: 20px;
+}
+.container-2{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bg-dark{
+    background-color: #232323;
+    color: #fff;
+    display: flex;
+    padding: 0!important;
+}
+.text-content{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.ig-secton{
+    margin: auto;
+    padding-right: 100px;
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+.section-title{
+    font-size: 43px;
+}
+.section-content{
+    font-size: 16px;
+}
+.section-header{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+nav ul li a:hover{
+    color: grey;
+}
